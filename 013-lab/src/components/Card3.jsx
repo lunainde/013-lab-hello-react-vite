@@ -1,4 +1,4 @@
-import icon3 from "./assets/icon3.png";
+import icon3 from "./../assets/icon3.png";
 
 function Card3() {
     return (
