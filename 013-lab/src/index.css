@@ -22,14 +22,14 @@ a:hover {
   color: #535bf2;
 }
 
-body {
+html, body {
   margin: 0;
   padding: 0;
-  border: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  /* border: 0; */
+  /* display: flex;
+  place-items: center; */
+  /* min-width: 320px;
+  min-height: 100vh; */
 }
 
 .navbar {
@@ -38,7 +38,7 @@ body {
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  padding: 1rem;
+  padding: 1rem 4rem;
 }
 .logo, .menu {
   height: 50px; 
@@ -51,7 +51,7 @@ body {
   background: #1F2535; 
   color: #fff;
 }
-h1 {
+.hero h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
@@ -61,9 +61,27 @@ h1 {
 }
 
 /* ================================ */
-.cards .card {
-  flex-direction: row;
-  justify-content: space-around;
+.cards {
+  padding: 20px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  max-width: 200px;
+  margin: 20px;
+}
+
+.card h3 {
+  font-size: 26px;
+  color: #1c2635;
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(88, 88, 88);
 }
 
 button {

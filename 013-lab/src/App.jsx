@@ -9,14 +9,16 @@ import Card4 from "./components/Card4";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <HeroSection />
-        <div className="Cards">
+      <main>
+        <Navbar />
+        <HeroSection />
+        <div className="cards">
           <Card1 />
           <Card2 />
           <Card3 />
           <Card4 />
         </div>  
+      </main>
     </div>
   );
 }
